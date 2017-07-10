@@ -80,6 +80,19 @@ public class VideoActivity extends AppCompatActivity implements View.OnClickList
         ApplyFullScreenAPP(mVideoView);
         ApplyFullScreenAPP(mTextsViews);
 
+        /*
+
+
+        ifnapinasag
+        ga
+        g
+        sga
+
+        ag
+        asa
+        g
+         */
+
 
         // Handler is a thread that allow change communication via string betwen different classes
         //It's used because in a thread isn´t possible modify a view
