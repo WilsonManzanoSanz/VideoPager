@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="videopager.wilsonmanzano.globaluz.videopager.Activitys.VideoActivity">
+
+
+
+
+    <Button
+        android:id="@+id/button_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#00000000"
+        android:visibility="visible"/>
+
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/video_view"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="PEDIDO LISTO"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="106dp"
+        android:layout_below="@+id/button_volume"
+        android:layout_centerHorizontal="true" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/text_view"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/text_view_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="90%"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textColor="#06cf24"
+            android:textSize="180sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/text_view_pager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="sans-serif"
+            android:text="5"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="150sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
