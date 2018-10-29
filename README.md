@@ -12,4 +12,4 @@ Prototype of an android application developed to control an android board named 
 
 ## Notes
 
-This applications was not finished and it´s in alpha mode, although is working on the testing videopager devices and its purpose pretends to be commercial.   
+This applications was not finished and it´s in alpha mode, although is working on the testing videopager devices.
