@@ -1,4 +1,4 @@
-# VideoPager2
+# VideoPager
 
 Prototype of an android application developed to control an android board named VideoPager.  
 
